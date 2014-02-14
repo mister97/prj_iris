@@ -1,5 +1,5 @@
-#ifndef CLASSE_DUREE_H_INCLUDED
-#define CLASSE_DUREE_H_INCLUDED
+#ifndef CLASS_DUREE_H_INCLUDED
+#define CLASS_DUREE_H_INCLUDED
 
 class Duree
 {
@@ -14,4 +14,4 @@ public:
     void ajout(double);
 };
 
-#endif // CLASSE_DUREE_H_INCLUDED
+#endif // CLASS_DUREE_H_INCLUDED
