@@ -1,9 +1,17 @@
-#include<iostream>
-using namespace std;
+#include "def_class.cpp"
 
 int main()
 {
-cout<<"Hello World"<<endl;
+    Duree temps(4,73,55);
 
-return 0;
+    temps.affichage();
+
+    temps.ajout(5);
+
+    temps.affichage();
+
+    double ts=temps.convert();
+    cout<<"\nLe temps total en secondes est de "<<ts<<"s."<<endl;
+
+    return 0;
 }
